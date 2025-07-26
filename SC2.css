@@ -417,6 +417,11 @@ button, .cta, .boton-principal, .main-nav a, .step-number {
   .slide {
     transition: opacity 0.5s ease;
   }
+.producto h3 {
+  margin: 0.5rem 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+}
 
 
 
