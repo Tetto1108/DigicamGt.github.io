@@ -9,7 +9,31 @@
       --color-header: #2A2D34;
       --color-slider-bg: #3E4248;
     }
+/* Encabezados (h1, h2, h3): IBM Plex Sans */
+h1, h2, h3 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+}
 
+/* Párrafos / cuerpo de texto: Source Sans Pro */
+body, p, li, span, .texto-promocional p, .content-text p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+/* Texto ligero secundario */
+.small-text, .hint, .descripcion-secundaria {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: #E0E0E0;
+}
+
+/* Botones / elementos interactivos: Work Sans (opcional) */
+button, .cta, .boton-principal, .main-nav a, .step-number {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+}
     * {
       margin: 0;
       padding: 0;
